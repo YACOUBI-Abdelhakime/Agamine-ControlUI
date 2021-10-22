@@ -1,0 +1,63 @@
+﻿Build started 12/07/2019 15:50:57.
+     1>Project "D:\$_AGAMINE_$\App\ControlUi_LE\part1.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\part1.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       GenerateTargetFrameworkMonikerAttribute:
+       Skipping target "GenerateTargetFrameworkMonikerAttribute" because all output files are up-to-date with respect to the input files.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"StdAfx.h" /Fp"Release\part1.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" /FU"c:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll" /FU"C:\Program Files (x86)\MySQL\MySQL Connector Net 6.9.12\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt stdafx.cpp /clr:nostdlib 
+         stdafx.cpp
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /AI"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0" /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Release\part1.pch" /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" /FU"c:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll" /FU"C:\Program Files (x86)\MySQL\MySQL Connector Net 6.9.12\Assemblies\v4.0\MySql.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /FU"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /analyze- /errorReport:prompt AssemblyInfo.cpp "Data Base.cpp" part1.cpp Statistic.cpp /clr:nostdlib 
+         AssemblyInfo.cpp
+         Data Base.cpp
+     1>d:\$_agamine_$\app\controlui_le\Data Base.h(528): warning C4101: 'ex' : unreferenced local variable
+     1>d:\$_agamine_$\app\controlui_le\Data Base.h(561): warning C4101: 'ex' : unreferenced local variable
+         part1.cpp
+     1>d:\$_agamine_$\app\controlui_le\Statistic.h(215): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>d:\$_agamine_$\app\controlui_le\Statistic.h(216): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>d:\$_agamine_$\app\controlui_le\Statistic.h(217): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>d:\$_agamine_$\app\controlui_le\Statistic.h(218): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>d:\$_agamine_$\app\controlui_le\Data Base.h(528): warning C4101: 'ex' : unreferenced local variable
+     1>d:\$_agamine_$\app\controlui_le\Data Base.h(561): warning C4101: 'ex' : unreferenced local variable
+     1>d:\$_agamine_$\app\controlui_le\Form1.h(1900): warning C4996: 'localtime': This function or variable may be unsafe. Consider using localtime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.inl(112) : see declaration of 'localtime'
+     1>d:\$_agamine_$\app\controlui_le\Form1.h(1901): warning C4996: 'asctime': This function or variable may be unsafe. Consider using asctime_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\include\time.h(153) : see declaration of 'asctime'
+     1>d:\$_agamine_$\app\controlui_le\Form1.h(1965): warning C4101: 'ex' : unreferenced local variable
+     1>d:\$_agamine_$\app\controlui_le\Form1.h(2155): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+         Statistic.cpp
+     1>d:\$_agamine_$\app\controlui_le\Statistic.h(215): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>d:\$_agamine_$\app\controlui_le\Statistic.h(216): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>d:\$_agamine_$\app\controlui_le\Statistic.h(217): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+     1>d:\$_agamine_$\app\controlui_le\Statistic.h(218): warning C4965: implicit box of integer 0; use nullptr or explicit cast
+         Generating Code...
+     1>d:\$_agamine_$\app\controlui_le\form1.h(1945): warning C4715: 'part1::Form1::Month' : not all control paths return a value
+     1>d:\$_agamine_$\app\controlui_le\form1.h(2083): warning C4715: 'part1::Form1::cmd_X' : not all control paths return a value
+     1>d:\$_agamine_$\app\controlui_le\form1.h(2131): warning C4715: 'part1::Form1::cmd_gve' : not all control paths return a value
+     1>d:\$_agamine_$\app\controlui_le\form1.h(2050): warning C4715: 'part1::Form1::cmd_tsd' : not all control paths return a value
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /Zi /clr:pure /nologo /W3 /WX- /O2 /Oy- /D WIN32 /D NDEBUG /D _UNICODE /D UNICODE /EHa /MD /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc100.pdb" /TP /analyze- /errorReport:prompt "C:\Users\YACOUBI Abdelhakime\AppData\Local\Temp\.NETFramework,Version=v4.0.AssemblyAttributes.cpp"
+         .NETFramework,Version=v4.0.AssemblyAttributes.cpp
+       CoreResGen:
+         "c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\NETFX 4.0 Tools\resgen.exe" /useSourcePath /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\Microsoft.VisualBasic.dll" /r:"c:\Program Files (x86)\Reference Assemblies\Microsoft\VBPowerPacks\v10.0\Microsoft.VisualBasic.PowerPacks.Vs.dll" /r:"C:\Program Files (x86)\MySQL\MySQL Connector Net 6.9.12\Assemblies\v4.0\MySql.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Core.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Data.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Drawing.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.DataVisualization.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Windows.Forms.dll" /r:"C:\Program Files (x86)\Reference Assemblies\Microsoft\Framework\.NETFramework\v4.0\System.Xml.dll" /compile "Data Base.resx","Release\part1.Data Base.resources"
+         Processing resource file "Data Base.resx" into "Release\part1.Data Base.resources".
+       ResourceCompile:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _UNICODE /D UNICODE /l"0x0409" /nologo /fo"Release\app.res" app.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\$_AGAMINE_$\App\ControlUi_LE\Release\part1.exe" /INCREMENTAL:NO /NOLOGO /ASSEMBLYRESOURCE:"Release\part1.Data Base.resources" /ASSEMBLYRESOURCE:Release\part1.Form1.resources /ASSEMBLYRESOURCE:Release\part1.Statistic.resources /MANIFEST /ManifestFile:"Release\part1.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"D:\$_AGAMINE_$\App\ControlUi_LE\Release\part1.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"main" /DYNAMICBASE /FIXED:NO /NXCOMPAT /MACHINE:X86 Release\app.res
+         Release\AssemblyInfo.obj
+         "Release\Data Base.obj"
+         Release\part1.obj
+         Release\Statistic.obj
+         Release\stdafx.obj
+         "Release\.NETFramework,Version=v4.0.AssemblyAttributes.obj"
+         part1.vcxproj -> D:\$_AGAMINE_$\App\ControlUi_LE\Release\part1.exe
+       Manifest:
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\$_AGAMINE_$\App\ControlUi_LE\Release\part1.exe;#1" /manifest Release\part1.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Release\part1.unsuccessfulbuild".
+         Touching "Release\part1.lastbuildstate".
+     1>Done Building Project "D:\$_AGAMINE_$\App\ControlUi_LE\part1.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:15.57
